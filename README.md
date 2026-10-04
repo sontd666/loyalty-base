@@ -1,4 +1,8 @@
-## 1. Giải thích database
+## 1. Schema Mermaid
+[Link schema](https://mermaid.live/edit#pako:eNqtVbtu2zAU_RWCsxzYcmTXWhu0Q4KgQ9KhECAwEiMRlUiDIoO0ToaiPxCj6NwGGToURR_IUnvoIKP_oT8pqbf8CDJU8APkvec-zuGlZtBjPoY2xPyAoICj2OEOBeqRCeYJuLrq9dgMEHrBiIcTYAMHihDREAiW3lIHbnWfMkKFGzFRAJJs-QmE2fK7bPwZ92vAVTd-41Rvl25rcUX6zQvBak6y5ft4F6qqhmMfx1NBGC3Aq3m2_Eg20a0cD-IFz5ZfKzgQehGl90Wc6tsQM6uW-ZYkPlCfF4ftXR8JnP-47Nw9I1yElfW6Ha9i7hERz0igKgcBZ0niophJtXDgc5LegiBbzj0DvDw-aDrvpKlJfESefFf36ar_Z5umvGJtc-BJiGLghSRb_JFlJ4Za__2BQJzeKxoXd01BRR0CaOpxjH03VyLRYZR2NKjZX83TO-Cnv2nQBZcETBHxm_5PFOYdBUIdyJ8eaB3mNTr0k8QoinSIRCAhdeYBWN2oZB2YWeyFLP1Mu3gtpyAxLksQW20cn0vqY21XCY5Pj44AzfkpeFkL21GpdVj_g04Jk9zDbil94WSA08N1PTDitK3G6qYcgnwezxBVgmSLL3KbkjEilNCgkaMCe-kvCqJscUvKvrfoWVNWVrCDUHw5JRwnu_m-YK930i1Cqe-qD-RBytu3wWOZ7_C6Ya2l3LTnZzgn21Xq-S3Sco7WLp9t_aox290wV0NXMN9qGRow4MSHtuASGzDGXCmnlnCmHfRLQE2kA_VNqLiQlz2PRYyrAFRDp4i-Yiyu0JzJIIT2OYoStZJTXVr5uqldsBoB_lQfCmgPJ8M8BrRn8BLa5uTJ3mBiWSOzbw6tYd8y4Bto9wYjc29iTiZ9y7L65mhsXRvwbZ51sDewlO_-eDwa9ofWYH98_Q-Kr22q)
+
+
+## 2. Giải thích database
 
 ### Bảng `users`
 
@@ -62,11 +66,8 @@ Trường hợp điểm tích từ hóa đơn đã được dùng cho hóa đơn
 2. Khách thanh toán Order B trị giá 20.000đ, dùng hết 10 điểm để giảm 10.000đ và trả 10.000đ còn lại.
 3. Khách hoàn Order A. Lúc này, 10 điểm phát sinh từ A đã được sử dụng hết nên không thể thu hồi từ lô điểm của A.
 
-## 2. Schema Mermaid
 
-[https://mermaid.live/edit#pako:eNqtVbtu2zAU_RWCsxzYcmTXWhu0Q4KgQ9KhECAwEiMRlUiDIoO0ToaiPxCj6NwGGToURR_IUnvoIKP_oT8pqbf8CDJU8APkvec-zuGlZtBjPoY2xPyAoICj2OEOBeqRCeYJuLrq9dgMEHrBiIcTYAMHihDREAiW3lIHbnWfMkKFGzFRAJJs-QmE2fK7bPwZ92vAVTd-41Rvl25rcUX6zQvBak6y5ft4F6qqhmMfx1NBGC3Aq3m2_Eg20a0cD-IFz5ZfKzgQehGl90Wc6tsQM6uW-ZYkPlCfF4ftXR8JnP-47Nw9I1yElfW6Ha9i7hERz0igKgcBZ0niophJtXDgc5LegiBbzj0DvDw-aDrvpKlJfESefFf36ar_Z5umvGJtc-BJiGLghSRb_JFlJ4Za__2BQJzeKxoXd01BRR0CaOpxjH03VyLRYZR2NKjZX83TO-Cnv2nQBZcETBHxm_5PFOYdBUIdyJ8eaB3mNTr0k8QoinSIRCAhdeYBWN2oZB2YWeyFLP1Mu3gtpyAxLksQW20cn0vqY21XCY5Pj44AzfkpeFkL21GpdVj_g04Jk9zDbil94WSA08N1PTDitK3G6qYcgnwezxBVgmSLL3KbkjEilNCgkaMCe-kvCqJscUvKvrfoWVNWVrCDUHw5JRwnu_m-YK930i1Cqe-qD-RBytu3wWOZ7_C6Ya2l3LTnZzgn21Xq-S3Sco7WLp9t_aox290wV0NXMN9qGRow4MSHtuASGzDGXCmnlnCmHfRLQE2kA_VNqLiQlz2PRYyrAFRDp4i-Yiyu0JzJIIT2OYoStZJTXVr5uqldsBoB_lQfCmgPJ8M8BrRn8BLa5uTJ3mBiWSOzbw6tYd8y4Bto9wYjc29iTiZ9y7L65mhsXRvwbZ51sDewlO_-eDwa9ofWYH98_Q-Kr22q]
-
-## 3. Cuộc trò chuyện với AI
+## 3. Nội dung trao đổi AI
 
 Em sử dụng AI để review, thảo luận thiết kế DB, review code và update file README.
 
